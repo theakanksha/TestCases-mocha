@@ -101,7 +101,7 @@ describe('#personalinfo', function() {
 describe('#cloversAmt', function() {
     context('when clovers are not sufficient', function() {
       it('Insufficient clovers', function() { 
-        assert.equal(clovers<12,"Please buy clovers");
+        assert.equal(clovers<13,"Please buy clovers");
       });
       it('Insufficient clovers', function() { 
         assert.equal(clovers<1,"Please Buy Clovers");
